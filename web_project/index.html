@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Te Ryu Fxy - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+    <div class="bg-shape bg-shape-3"></div>
+    <div class="bg-shape bg-shape-4"></div>
+    <div class="bg-shape bg-shape-5"></div>
+    <div class="bg-shape bg-shape-6"></div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div class="loader-container">
+    <div class="loader">
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#projek" class="nav-link">Projek</a></li>
+        <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero">
+    <h1 class="hero-title">Halo, Saya Fahri</h1>
+  </section>
+
+  <!-- Projek Section -->
+  <section id="projek" class="section projek">
+    <div class="container">
+      <h2>Projek</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-delay="0.1s">
+          <div class="project-content">
+            <h3>Website Portfolio</h3>
+            <p>Desain dan pengembangan website portofolio modern dengan animasi halus.</p>
+            <a href="https://example.com/portfolio" target="_blank" rel="noopener noreferrer">
+              <button class="btn-detail">Lihat Detail</button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" data-delay="0.3s">
+          <div class="project-content">
+            <h3>Aplikasi Todo</h3>
+            <p>Aplikasi manajemen tugas dengan antarmuka intuitif dan penyimpanan lokal.</p>
+            <a href="https://example.com/todo-app" target="_blank" rel="noopener noreferrer">
+              <button class="btn-detail">Lihat Detail</button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" data-delay="0.5s">
+          <div class="project-content">
+            <h3>Dashboard Analitik</h3>
+            <p>Dashboard data real-time dengan visualisasi chart interaktif.</p>
+            <a href="https://example.com/dashboard" target="_blank" rel="noopener noreferrer">
+              <button class="btn-detail">Lihat Detail</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Section -->
+  <section id="kontak" class="section kontak">
+    <div class="container">
+      <h2>Kontak</h2>
+      <div class="contact-card">
+        <img src="download.jpeg" alt="cihuy" class="profile-pic" />
+        <div class="contact-info">
+          <h3>Biji p</h3>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <button id="explore-skills" class="btn-explore">Explore Skills</button>
+    </div>
+  </section>
+
+  <!-- Skill Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <div class="skills-container">
+        <div class="skill-category" data-delay="0.1s">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e34f26" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>HTML</span>
+            </div>
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+              <span>TailwindCSS</span>
+            </div>
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#61dafb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-delay="0.3s">
+          <h3>Framework</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              <span>Laravel</span>
+            </div>
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#db4c2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              <span>CodeIgniter</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-delay="0.5s">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8993be" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              <span>PHP</span>
+            </div>
+            <div class="skill-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3c873a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              <span>Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
